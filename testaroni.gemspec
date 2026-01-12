@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name        = "testaroni"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.summary     = "Testaroni! Testing made easier"
   s.description = "Write tests for your ruby code."
   s.authors     = ["Indigo Tech Tutorials"]
   s.email       = "indigo@tech.tut"
-  s.files       = ["lib/testaroni.rb"]
+  s.files       = Dir.glob("lib/**/*")
   s.homepage    =
     "https://rubygems.org/gems/testaroni"
   s.license       = "MIT"
