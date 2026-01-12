@@ -1,7 +1,6 @@
+# Responsible for handling questions after calling make_sure or other methods
 class Testaroni
   class Evaluation
-    # Responsible for handling questions after calling
-    # make_sure or other methods
     attr_reader :original_value
     def initialize(original_value)
       @original_value = original_value
