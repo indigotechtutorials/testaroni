@@ -1,6 +1,7 @@
 # Responsible for handling questions after calling make_sure or other methods
 class Testaroni
   class Evaluation
+    include Testaroni::Message
     attr_reader :original_value, :runner
     def initialize(runner, original_value)
       @runner = runner
@@ -9,17 +10,17 @@ class Testaroni
 
     def equals(matching_value)
       if original_value == matching_value
-        puts "✅ Test passed: #{runner.description}"
+        test_passed_message
       else
-        puts "❌ Test failed: #{runner.description}"
+        test_failed_message
       end
     end
 
     def is_not(matching_value)
       if original_value != matching_value
-        puts "✅ Test passed: #{runner.description}"
+        test_passed_message
       else
-        puts "❌ Test failed: #{runner.description}"
+        test_failed_message
       end
     end
   end

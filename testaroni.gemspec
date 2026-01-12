@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "testaroni"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.summary     = "Testaroni! Testing made easier"
   s.description = "Write tests for your ruby code."
   s.authors     = ["Indigo Tech Tutorials"]
