@@ -1,5 +1,5 @@
+require_relative "./testaroni/helpers"
+include Testaroni::Helpers
+
 class Testaroni
-  def self.hello
-    puts "Hello!"
-  end
 end

@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     "https://rubygems.org/gems/testaroni"
   s.license       = "MIT"
+  s.metadata['source_code_uri'] = 'https://github.com/indigotechtutorials/testaroni'
 end
