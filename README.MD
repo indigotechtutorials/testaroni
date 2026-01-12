@@ -11,6 +11,8 @@
 file: `my_test.rb`
 
 ```ruby
+require 'testaroni'
+
 test "Make sure my value is equal" do
   value = 100
   make_sure(value).equals(100)
